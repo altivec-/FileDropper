@@ -15,6 +15,37 @@
 		2AEC2C0A1764FF4500061321 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC2C081764FF4500061321 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2AEC2C19176508AE00061321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AEC2C10176508AE00061321 /* Connection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79CFD12609F702BE00172CDD;
+			remoteInfo = Framework;
+		};
+		2AEC2C1B176508AE00061321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AEC2C10176508AE00061321 /* Connection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 220AD7981509019B00748655;
+			remoteInfo = UnitTests;
+		};
+		2AEC2C1D176508AE00061321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AEC2C10176508AE00061321 /* Connection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27F3372816BC1FB100E70511;
+			remoteInfo = AuthTester;
+		};
+		2AEC2C1F176508AE00061321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AEC2C10176508AE00061321 /* Connection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22C9CF981703327A004610FE;
+			remoteInfo = ProfilingTester;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2AEC2BF01764FF4500061321 /* FileDropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEC2BF31764FF4500061321 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -29,6 +60,7 @@
 		2AEC2C051764FF4500061321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AEC2C061764FF4500061321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2AEC2C091764FF4500061321 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2AEC2C10176508AE00061321 /* Connection.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Connection.xcodeproj; path = ConnectionKit/Connection.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +81,7 @@
 				2AEC2BF91764FF4500061321 /* FileDropper */,
 				2AEC2BF21764FF4500061321 /* Frameworks */,
 				2AEC2BF11764FF4500061321 /* Products */,
+				2AEC2C10176508AE00061321 /* Connection.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +135,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2AEC2C11176508AE00061321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2C1A176508AE00061321 /* Connection.framework */,
+				2AEC2C1C176508AE00061321 /* UnitTests.octest */,
+				2AEC2C1E176508AE00061321 /* AuthTester.app */,
+				2AEC2C20176508AE00061321 /* ProfilingTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,12 +185,49 @@
 			mainGroup = 2AEC2BE71764FF4500061321;
 			productRefGroup = 2AEC2BF11764FF4500061321 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2AEC2C11176508AE00061321 /* Products */;
+					ProjectRef = 2AEC2C10176508AE00061321 /* Connection.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2AEC2BEF1764FF4500061321 /* FileDropper */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2AEC2C1A176508AE00061321 /* Connection.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Connection.framework;
+			remoteRef = 2AEC2C19176508AE00061321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2AEC2C1C176508AE00061321 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = 2AEC2C1B176508AE00061321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2AEC2C1E176508AE00061321 /* AuthTester.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AuthTester.app;
+			remoteRef = 2AEC2C1D176508AE00061321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2AEC2C20176508AE00061321 /* ProfilingTester.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ProfilingTester.app;
+			remoteRef = 2AEC2C1F176508AE00061321 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2AEC2BEE1764FF4500061321 /* Resources */ = {
