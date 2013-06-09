@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AEC2BF41764FF4500061321 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC2BF31764FF4500061321 /* Cocoa.framework */; };
+		2AEC2BFE1764FF4500061321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC2BFC1764FF4500061321 /* InfoPlist.strings */; };
+		2AEC2C001764FF4500061321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC2BFF1764FF4500061321 /* main.m */; };
+		2AEC2C041764FF4500061321 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC2C021764FF4500061321 /* Credits.rtf */; };
+		2AEC2C071764FF4500061321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC2C061764FF4500061321 /* AppDelegate.m */; };
+		2AEC2C0A1764FF4500061321 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC2C081764FF4500061321 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AEC2BF01764FF4500061321 /* FileDropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEC2BF31764FF4500061321 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2AEC2BF61764FF4500061321 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2AEC2BF71764FF4500061321 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2AEC2BF81764FF4500061321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AEC2BFB1764FF4500061321 /* FileDropper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileDropper-Info.plist"; sourceTree = "<group>"; };
+		2AEC2BFD1764FF4500061321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AEC2BFF1764FF4500061321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AEC2C011764FF4500061321 /* FileDropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileDropper-Prefix.pch"; sourceTree = "<group>"; };
+		2AEC2C031764FF4500061321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2AEC2C051764FF4500061321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AEC2C061764FF4500061321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AEC2C091764FF4500061321 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEC2BED1764FF4500061321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC2BF41764FF4500061321 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AEC2BE71764FF4500061321 = {
+			isa = PBXGroup;
+			children = (
+				2AEC2BF91764FF4500061321 /* FileDropper */,
+				2AEC2BF21764FF4500061321 /* Frameworks */,
+				2AEC2BF11764FF4500061321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AEC2BF11764FF4500061321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2BF01764FF4500061321 /* FileDropper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AEC2BF21764FF4500061321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2BF31764FF4500061321 /* Cocoa.framework */,
+				2AEC2BF51764FF4500061321 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AEC2BF51764FF4500061321 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2BF61764FF4500061321 /* AppKit.framework */,
+				2AEC2BF71764FF4500061321 /* CoreData.framework */,
+				2AEC2BF81764FF4500061321 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2AEC2BF91764FF4500061321 /* FileDropper */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2C051764FF4500061321 /* AppDelegate.h */,
+				2AEC2C061764FF4500061321 /* AppDelegate.m */,
+				2AEC2C081764FF4500061321 /* MainMenu.xib */,
+				2AEC2BFA1764FF4500061321 /* Supporting Files */,
+			);
+			path = FileDropper;
+			sourceTree = "<group>";
+		};
+		2AEC2BFA1764FF4500061321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC2BFB1764FF4500061321 /* FileDropper-Info.plist */,
+				2AEC2BFC1764FF4500061321 /* InfoPlist.strings */,
+				2AEC2BFF1764FF4500061321 /* main.m */,
+				2AEC2C011764FF4500061321 /* FileDropper-Prefix.pch */,
+				2AEC2C021764FF4500061321 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEC2BEF1764FF4500061321 /* FileDropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEC2C0D1764FF4500061321 /* Build configuration list for PBXNativeTarget "FileDropper" */;
+			buildPhases = (
+				2AEC2BEC1764FF4500061321 /* Sources */,
+				2AEC2BED1764FF4500061321 /* Frameworks */,
+				2AEC2BEE1764FF4500061321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileDropper;
+			productName = FileDropper;
+			productReference = 2AEC2BF01764FF4500061321 /* FileDropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AEC2BE81764FF4500061321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Valera Antonov";
+			};
+			buildConfigurationList = 2AEC2BEB1764FF4500061321 /* Build configuration list for PBXProject "FileDropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AEC2BE71764FF4500061321;
+			productRefGroup = 2AEC2BF11764FF4500061321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEC2BEF1764FF4500061321 /* FileDropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AEC2BEE1764FF4500061321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC2BFE1764FF4500061321 /* InfoPlist.strings in Resources */,
+				2AEC2C041764FF4500061321 /* Credits.rtf in Resources */,
+				2AEC2C0A1764FF4500061321 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEC2BEC1764FF4500061321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEC2C001764FF4500061321 /* main.m in Sources */,
+				2AEC2C071764FF4500061321 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AEC2BFC1764FF4500061321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC2BFD1764FF4500061321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AEC2C021764FF4500061321 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC2C031764FF4500061321 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2AEC2C081764FF4500061321 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC2C091764FF4500061321 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AEC2C0B1764FF4500061321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AEC2C0C1764FF4500061321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AEC2C0E1764FF4500061321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileDropper/FileDropper-Prefix.pch";
+				INFOPLIST_FILE = "FileDropper/FileDropper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AEC2C0F1764FF4500061321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileDropper/FileDropper-Prefix.pch";
+				INFOPLIST_FILE = "FileDropper/FileDropper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEC2BEB1764FF4500061321 /* Build configuration list for PBXProject "FileDropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC2C0B1764FF4500061321 /* Debug */,
+				2AEC2C0C1764FF4500061321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AEC2C0D1764FF4500061321 /* Build configuration list for PBXNativeTarget "FileDropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC2C0E1764FF4500061321 /* Debug */,
+				2AEC2C0F1764FF4500061321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AEC2BE81764FF4500061321 /* Project object */;
+}
