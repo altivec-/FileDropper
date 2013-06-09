@@ -11,5 +11,9 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)authCheckBox:(id)sender;
+@property (weak) IBOutlet NSButton *authCheckBoxOutlet;
+@property (weak) IBOutlet NSTextField *loginBox;
+@property (weak) IBOutlet NSTextField *passwordBox;
 
 @end
